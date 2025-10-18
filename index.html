@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahindra Mahalunge | Coming Soon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <div class="parallax-bg"></div>
+    
+  
+    <div class="floating-elements">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+    </div>
+     
+    <nav class="navbar">
+        <div class="logo">Mahindra Mahalunge</div>
+        
+       
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Project</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+ 
+  
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Mahindra Mahalunge — Launching Soon in Pune</h1>
+            <p>A Luxury Residential Development in the Heart of Mahalunge</p>
+            <a href="#contact" class="btn">Notify Me</a>
+        </div>
+        <a href="#contact" class="scroll-down">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+        
+       
+    </section>
+
+  <section class="contact-section">
+    <div class="contact-container">
+        <div class="contact-title">
+            <h2>Get In Touch</h2>
+            <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+        </div>
+        
+        <form class="contact-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+            </div>
+            
+            <div class="form-group full-width">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" class="form-control" required>
+            </div>
+            
+            <div class="form-group full-width">
+                <label for="message">Message</label>
+                <textarea id="message" class="form-control" required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </div>
+</section>
+   
+    <footer class="footer">
+        <p>© 2025 Mahindra Lifespaces — All Rights Reserved.</p>
+    </footer>
+    
+    <div class="popup" id="comingSoonPopup">
+        <div class="popup-content">
+            <h2>Coming Soon!</h2>
+            <p>Our Mahindra Mahalunge project is launching soon. Stay tuned for updates!</p>
+            <button onclick="closePopup()">OK</button>
+        </div>
+    </div>
+
+
+   <script src="script.js"></script>
+</body>
+</html>
